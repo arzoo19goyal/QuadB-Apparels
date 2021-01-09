@@ -1,0 +1,131 @@
+#content .wrapper {
+    padding-top: 8px;
+}
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.hdn1 {
+    font-size: 300%;
+    text-transform: uppercase;
+    color: #000;
+    border-bottom: 2px solid #000;
+    margin: 5px 0 15px;
+    position: relative;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    line-height: 1.2em;
+}
+.sidebar {
+    float: right;
+    width: 32%;
+}
+.widget {
+    margin-bottom: 15px;
+}
+.latestmostwdt .heading {
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 20px;
+    color: #000;
+    margin-bottom: 2px;
+}
+.tabstrip1 {
+    border-bottom: 3px solid #303030;
+    background: #bababa;
+    margin-bottom: 8px;
+}
+.tabstrip1{
+    display: table;
+    width: 100%;
+}
+
+.tabstrip1 li {
+    float: left;
+    border-right: 1px solid #f5f5f5;
+    /* display: table-cell; */
+}
+.tabstrip1 li a.active, .tabstrip1 li a:hover {
+    text-decoration: none;
+    background: #303030;
+}
+
+.tabstrip1 li a.active, .tabstrip1 li a:hover {
+    text-decoration: none;
+    background: #000;
+}
+.tabstrip1 li a {
+    display: inline-block;
+    line-height: 32px;
+    padding: 0 10px;
+    font-size: 78%;
+    font-family: sans-serif;
+    color: #fff;
+    font-weight: 600;
+}
+ol.list4 li {
+    list-style: none;
+    border-bottom: 1px solid #eceaea;
+    padding: 0 5px 8px 0;
+    position: relative;
+    margin-bottom: 10px;
+}
+ol.list4 li a {
+    display: inline-block;
+    font-size: 14px;
+    color: #000;
+    line-height: 16px;
+}
+.tabcontent span.more {
+    display: block;
+    line-height: 14px;
+    font-size: 70%;
+    background: none repeat scroll 0 0 #fff;
+    border-top: 1px solid #000;
+    padding-top: 2px;
+    position: relative;
+}
+.tabcontent span.more a {
+    color: #000;
+    background: #fff;
+    left: 75px;
+    padding: 0 5px;
+    position: absolute;
+    text-transform: uppercase;
+    top: -9px;
+}
+.sidebar .sechead {
+    font-size: 18px;
+    line-height: 1;
+    padding: 0 0 10px 0;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #333;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sidebar .cvs_wdt li {
+    border-bottom: 1px solid #e5e5e5;
+    padding: 0 0 15px;
+    position: relative;
+    margin-bottom: 15px;
+}
+.sidebar .cvs_wdt .w_tle a, .sidebar .cvs_wdt a .w_tle, .sidebar .cvs_wdt a {
+    color: #454545;
+    font: normal 14px/20px proxima-regular1,arial,sans-serif;
+    margin-bottom: 5px;
+    display: block;
+}
+.sidebar .cvs_wdt .w_img img {
+    width: 94px;
+    height: 70px;
+    float: left;
+    margin: 0 10px 0 0;
+}
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+}
